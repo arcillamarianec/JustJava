@@ -1,0 +1,167 @@
+html {
+  scroll-behavior: smooth;
+}
+#section1, #section3  {
+  padding: 20px 60px 20px 60px;
+  background-color: #F8F8F4;
+  height: 100%;
+  width: 100%;
+}
+#section2, #section4  {
+  padding: 20px 60px 20px 60px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #E2DDD7;
+}
+form{
+  text-align: center;
+}
+nav, .navbar-nav{
+    background-color: #F8F8F4;
+    font-family: 'Quicksand', sans-serif;
+    color: #260D03;
+    font-size: 1.3vw;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    text-align: center; 
+}
+
+.navbar-nav > li {
+    display: inline-flex;
+    float: none;
+}
+head, body{ 
+}
+.responsiveLogo {
+    width: 10vw;
+    height: auto;
+  }
+  .responsiveCoffee1 {
+    width: 39vw;
+    height: auto;
+  }
+  .responsiveCoffee2 {
+    width: 30vw;
+    height: auto;
+  }
+  h1,p, .orderNowBtn, h2{
+    color: #592612;
+  }
+  h1,h2{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bolder;
+  }
+  h1{
+    font-size:4vw;
+  }
+  h2{
+    font-size:3vw;
+  }
+  p{
+    font-size:1.5vw;
+  }
+  p, .orderNowBtn{
+    font-family: 'Quicksand', sans-serif;
+  }
+  .orderNowBtn{
+    width:15vw;
+    font-size:1.5vw;
+    border: 2px solid #592612;
+    padding: 12px 12px 12px 12px;
+    background-color: #F8F8F4;
+    color: #592612;
+  }
+  .orderNowBtn:hover,  .addToCartBtn:hover, .sendBtn:hover{
+    background-color: #592612;
+    color: white;
+  }
+  .cartBtn{
+    border: none;
+    color: #592612;
+  }
+  .cartBtn:hover{
+    color: gray;
+    }
+  .itemsCnt{
+    font-size:1.5vw;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .navbar-toggler-icon{
+    height: 4vw;
+    width:4vw;
+    }
+    .navbar-toggler-icon:hover{
+      color: #592612;
+    }
+
+  .title{
+    text-align: center;
+  }
+  .col-6-itemList{
+    text-align: center;
+  }
+  .coffeeMenu{
+    background-color: #F8F8F4;
+    padding: 1vw;
+    border: solid 2px #592612;
+    margin: .5vw;
+    border-radius: 20px;
+  }
+  .itemListPic{
+    object-fit: fill;
+    height: 15vw;
+    border-radius: 100px;
+    object-position: center;
+  }
+  .itemTitle{
+    font-size:2vw;
+    font-weight: bolder;
+    font-family: 'League Spartan', sans-serif;
+    color: #592612;
+    padding-top: 2vw;
+  
+  }
+  .addToCartBtn{
+    font-family: 'Quicksand', sans-serif;
+    width:14vw;
+    font-size:1.5vw;
+    border: 2px solid #592612;
+    padding: 10px 10px 10px 10px;
+    background-color: #F8F8F4;
+    color: #592612;
+  }
+.itemList{
+padding:2vh;
+}
+.itemBanner{
+  padding-top: 4vh;
+}
+.contactUs{
+    text-align: center;
+}
+input, textarea{
+  font-family: 'Quicksand', sans-serif;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #592612;
+  background-color: #F8F8F4;
+  color: #592612;
+}
+.sendBtn{
+  color: #592612;
+  font-family: 'Quicksand', sans-serif;
+  width:30vw;
+  font-size:1.25vw;
+  border: 2px solid #592612;
+  padding: 12px 12px 12px 12px;
+  background-color: #F8F8F4;
+  color: #592612;
+}
+textarea {
+  resize: none;
+}
+.fTitle{
+  text-align: left;
+}
